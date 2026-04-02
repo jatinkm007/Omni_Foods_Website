@@ -1,0 +1,115 @@
+/* For small phones */
+@media (max-width: 480px) {
+    section{
+        padding: 25px 0;
+    }
+    .form{
+        width: 90%;
+    }
+}
+
+
+/* For small tablets */
+@media (max-width: 767px) {
+    body{
+        font-size: 16px;
+    }
+    section{
+        padding: 30px 0;
+    }
+    .row,
+    .hero-text-box{padding: 0 4%;}
+    .b{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .main-nav{
+        display: none;
+    }
+    .app_screen{
+        width: 40%;
+    }
+    .step-box:first-child{
+        text-align: center;
+    }
+    .work div{
+        height: 40px;
+        width: 40px;
+        padding: 4px;
+        font-size: 120%;
+        margin-right: 15px;
+    }
+    .work{margin-bottom: 20px;}
+    .work:last-of-type{margin-bottom: 20px;}
+}
+
+
+/* For big tablets from 768px to 1023px*/
+@media (max-width: 1023px) {
+    .long {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .step-box {
+        margin-top: 10px;
+    }
+
+    .step-box:last-child {
+        margin-top: 10px;
+    }
+
+    .work {
+        margin-bottom: 40px;
+    }
+
+    .work:last-of-type {
+        margin-bottom: 60px;
+    }
+
+    .app_screen {
+        width: 50%;
+    }
+
+    .icon {
+        width: 17px;
+        margin-right: 5px;
+    }
+
+    .features {
+        font-size: 90%;
+    }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .price {
+        font-size: 250%;
+    }
+
+    .form {
+        width: 80%;
+    }
+}
+
+/* For big tablets */
+@media (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
